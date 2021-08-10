@@ -1,14 +1,14 @@
-package com.example.examplemod;
+package com.io.github.shotgunbruin.snaresnstuff;
 
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION, dependencies = "required-after:terrafirmacraftplus;")
-public class ExampleMod
+@Mod(modid = SnaresnStuff.MODID, version = SnaresnStuff.VERSION, dependencies = "required-after:terrafirmacraftplus;")
+public class SnaresnStuff
 {
-    public static final String MODID = "examplemod";
+    public static final String MODID = "snaresnstuff";
     public static final String VERSION = "1.0";
     
     @EventHandler
